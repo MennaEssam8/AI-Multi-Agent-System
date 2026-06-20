@@ -1,0 +1,17 @@
+Artificial Intelligence is transforming industries by automating tasks, improving decision-making, and enabling new products that were previously impossible. Companies across healthcare, finance, retail, and manufacturing are investing heavily in AI to stay competitive.
+
+Machine learning is a subset of AI that allows systems to learn patterns from data rather than being explicitly programmed with rules. Common approaches include supervised learning, unsupervised learning, and reinforcement learning.
+
+Deep learning uses neural networks with many layers to model complex patterns in large datasets. It powers technologies such as image recognition, speech-to-text, and large language models like the ones used in modern chatbots.
+
+Egypt is a country in northeastern Africa, known for its ancient civilization, the pyramids of Giza, and the Nile River, which has supported agriculture and settlement for thousands of years. Cairo, its capital, is one of the largest cities in the Middle East and Africa.
+
+The Nile River is the longest river in Africa and has historically been central to Egyptian civilization, providing water for irrigation, transportation, and fertile soil through seasonal flooding.
+
+LangGraph is a framework for building stateful, multi-agent applications with large language models. It models workflows as graphs, where nodes represent units of computation and edges represent the flow of control between them, making it easier to build systems where multiple specialized agents collaborate.
+
+Retrieval-Augmented Generation, or RAG, is a technique that combines a retrieval system with a language model. Instead of relying solely on what the model learned during training, RAG retrieves relevant documents from an external knowledge base and uses them as context, which helps reduce hallucinations and keeps answers grounded in real data.
+
+Climate change refers to long-term shifts in temperatures and weather patterns, mainly caused by human activities such as burning fossil fuels. It leads to rising sea levels, more frequent extreme weather events, and disruptions to ecosystems and agriculture worldwide.
+
+The Great Barrier Reef, located off the coast of Australia, is the world's largest coral reef system. It is home to thousands of species of marine life but has suffered significant coral bleaching due to rising ocean temperatures in recent decades.

@@ -1,13 +1,6 @@
 """
 Answer generation for the RAG agent.
 
-Uses Groq (free tier, Llama 3.3 70B) instead of a paid API or
-flan-t5-base. flan-t5-base is a small model that tends to produce
-shallow, sometimes incoherent answers even with good retrieved
-context. Groq's free tier gives much better answer quality at zero
-cost, and reuses the same dependency as the router.
-
-Get a free key at https://console.groq.com/keys
 """
 
 from __future__ import annotations

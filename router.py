@@ -1,27 +1,3 @@
-"""
-LLM-based router.
-
-Replaces the old HuggingFace zero-shot classifier. Instead of forcing
-the request into one of two hardcoded labels, this asks an LLM to read
-the request and return a structured plan: an ordered list of agents to
-run. This means:
-
-  - New agents are just a new line in the prompt + state.py Literal,
-    not a retrain.
-  - Multi-step requests work: "summarize this article and check the
-    sentiment" -> plan = ["summarizer", "sentiment"].
-  - Ambiguous/unsupported requests are caught explicitly instead of
-    silently defaulting to the wrong label.
-
-Structured output is enforced via tool-calling, so we get back a real
-list of valid task names, not free text we have to regex.
-
-Uses Groq (free tier) running Llama 3.3 70B instead of a paid API.
-Groq's OpenAI-compatible tool-calling is reliable enough for this
-small, fixed set of routing labels. Get a free key at
-https://console.groq.com/keys
-"""
-
 from __future__ import annotations
 
 import os

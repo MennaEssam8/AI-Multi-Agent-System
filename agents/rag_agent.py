@@ -1,14 +1,6 @@
 """
 RAG (retrieval-augmented generation) agent.
 
-Original bug: this module built the FAISS index at *import time*,
-meaning every import re-embedded and re-indexed all documents -- slow,
-and wasteful when this is one of several agents in a graph that might
-not even need RAG for a given request.
-
-Fixed by lazily building the index once, on first use, and caching it.
-Call `reset_index()` if documents change at runtime (e.g. new file
-uploaded) and you want a rebuild.
 """
 
 from __future__ import annotations

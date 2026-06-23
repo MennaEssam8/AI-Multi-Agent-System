@@ -1,11 +1,6 @@
 """
 Sentiment analysis agent.
 
-The HuggingFace pipeline is created lazily (on first use) and cached,
-rather than at import time. This matters once this module is imported
-as part of a graph that might route to *other* agents most of the
-time -- we don't want to pay model-load cost for an agent that never
-runs in a given request.
 """
 
 from __future__ import annotations

@@ -1,10 +1,6 @@
 """
 Summarization agent.
 
-Lazy-loaded BART pipeline. When this agent runs as part of a
-multi-step plan (e.g. ["summarizer", "sentiment"]), its node also
-updates state["working_text"] to the summary, so the *next* agent in
-the plan operates on the summary rather than the original long text.
 """
 
 from __future__ import annotations
